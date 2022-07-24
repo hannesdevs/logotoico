@@ -1,0 +1,44 @@
+
+    body {
+    	background: linear-gradient(to right, #ff758c, #ff7eb3);
+    	font-family: sans-serif;
+    }
+
+    h1 {
+    	text-align: center;
+    	color: #fff;
+    	margin: 50px 0;
+    }
+
+    #converter {
+    	width: 400px;
+    	margin: 0 auto;
+    	background: rgba(255, 255, 255, 0.6);
+    	padding: 20px;
+    	border-radius: 10px;
+    }
+
+    #logo {
+    	width: 95%;
+    	padding: 10px;
+    	border: none;
+    	border-radius: 5px;
+    	background: #fff;
+    	outline: none;
+    }
+
+    #convert {
+    	width: 100%;
+    	padding: 10px;
+    	border: none;
+    	border-radius: 5px;
+    	background: #ff758c;
+    	color: #fff;
+    	font-weight: bold;
+    	cursor: pointer;
+    	outline: none;
+    }
+
+    #convert:hover {
+    	background: #ff7eb3;
+    }
